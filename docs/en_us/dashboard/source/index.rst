@@ -10,7 +10,6 @@ Using edX Insights
    :numbered:
    :maxdepth: 2
 
-   change_log
    front_matter/index
    Overview
    enrollment/index

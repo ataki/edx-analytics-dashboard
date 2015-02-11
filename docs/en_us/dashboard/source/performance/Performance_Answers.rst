@@ -8,50 +8,36 @@ How are students answering questions? In edX Insights, graded content
 submissions show you the responses that students submit for graded problems
 and help you evaluate what they find difficult.
 
-Student submission data is available in edX Insights for problem components of
-these types:
+This chapter describes `Selecting the Assignment Type, Assignment, and
+Problem`_ and `Gaining Insight into Graded Problems`_.
 
-* Checkboxes
-
-* Dropdown
-
-* Multiple choice
-
-* Numerical input
-
-* Text input
-
-* Math expression input
-
-Student submissions are updated every day. The computations include responses
-received through the end of the previous day (23:59 UTC).
+.. _Selecting the Assignment Type, Assignment, and Problem:
 
 *******************************************************
 Selecting the Assignment Type, Assignment, and Problem
 *******************************************************
 
-To access the answers that students submitted for a specific problem
-component, you must first make these selections.
+To access data about the answers that students submit for a graded problem
+component, you make these selections.
 
-Step 1. Select a graded course assignment type.
-Step 2. Select an assignment. 
-Step 3. Select the problem.
-Step 4 (if needed). Select the problem part.
+Step 1: Select a graded course assignment type.
 
-As you make these selections, edX Insights displays charts and reports
-aggregated data at each of these hierarchical levels to give you information
-about student performance in your course.
+Step 2: Select an assignment. 
+
+Step 3: Select the problem. (If necessary, you also select the problem part.)
+
+EdX Insights provides aggregated data for each selection that you make. 
 
 ==================================
-Step 1. Select an Assignment Type 
+Step 1: Select an Assignment Type
 ==================================
 
 After you select **Performance** and **Graded Content**, edX Insights displays
 the assignment types that make up the grading configuration of the course. You
-use the drop-down menu or click in this chart to select the assignment type
-you want to investigate.
+use the drop-down menu or click in this chart to select the assignment type to
+investigate.
 
-.. image:: ..images/assignment_type.png
+.. image:: ../images/assignment_type.png
  :alt: Single bar, thermometer-style chart that shows the percentage that each
      type of assignment contributes to the course grade
 
@@ -61,7 +47,7 @@ For information about defining course assignment types, see `Establishing a
 Grading Policy`_.
 
 ==============================
-Step 2. Select an Assignment 
+Step 2: Select an Assignment 
 ==============================
 
 After you select one of the course assignment types, edX Insights displays a
@@ -69,61 +55,56 @@ stacked bar chart that summarizes performance on each assignment of that type.
 You use the drop-down menu or click in the chart to select a specific
 assignment to examine further.
 
-.. image:: ..images/assignment.png
- :alt: This chart has one bar for each assignment of this type, with
+.. image:: ../images/assignment.png
+ :alt: This chart has one bar for each assignment of the selected type, with
      different colors for the number of correct and incorrect submissions
 
 .. replacement needed
 
 The report on this page provides the number of problems in each assignment and
-the total, correct, and incorrect submissions received for them.
+the number of correct and incorrect submissions received for them.
 
 For information about identifying the graded subsections in a course, see `Set
 the Assignment Type and Due Date for a Subsection`_.
 
 =========================
-Step 3. Select a Problem
+Step 3: Select a Problem
 =========================
 
 After you select a specific assignment, edX Insights displays a stacked bar
-chart that summarizes performance on each question in that problem.
-You use the drop-down menu or click in the chart to select a specific problem
-to examine further.
+chart that summarizes performance on each question in that problem. You use
+the drop-down menu or click in the chart to select a specific problem to
+examine further.
 
-.. image:: ..images/problems.png
- :alt: This chart has one bar for each problem in this assignment, with
-     different colors for the number of correct and incorrect submissions
+.. image:: ../images/problems.png
+ :alt: This chart has one bar for each problem in the selected assignment,
+     with different colors for the number of correct and incorrect submissions
 
 .. replacement needed
 
-A downloadable report also provides the number of questions in each problem
-and the total, correct, and incorrect submissions received for them.
+The report on this page provides the number of questions in each problem
+and the number of correct and incorrect submissions received for them.
 
 For information about adding a unit to a subsection, see `Create a Unit`_.
 
-==============================
-Step 4. Select a Problem Part
-==============================
+For problem components that include more than one problem component, or part,
+you use the drop-down menu or click in the chart to select a part.
 
+.. is there a chart? is there a report?
 
-For units that include more than one problem component there is also a Step 4, to select the 
-
-
+.. _Gaining Insight into Graded Problems:
 
 *************************************
-Gaining Insight into Course Problems
+Gaining Insight into Graded Problems
 *************************************
 
 EdX Insights delivers submission data in a bar chart and a report that you can
-view or download. For problem components that include more than one question
-or part, edX Insights presents a separate chart and report for each part. You
-select each part from the drop-down list in the top corner of the chart.
-Descriptions of the chart and report follow. For detailed information about
-the computations, see :ref:`Reference`.
+view or download. Descriptions of the chart and report follow. For detailed
+information about the computations, see :ref:`Reference`.
 
-======================================
+==================
 Submissions Chart
-======================================
+==================
 
 The bars on this chart represent the number of enrolled students who submitted
 a particular answer to a question in a problem component. The x-axis includes
@@ -164,14 +145,14 @@ most students selected the correct answer for a multiple choice problem.
 .. note:: Problems that use the randomization setting in Studio result in 
  many possible submission variants, both correct and incorrect. As a result,
  edX Insights does not attempt to present a chart of responses to these
- problems. Download the student submissions report to analyze responses of
- interest.
+ problems. You can download the student submissions report to analyze the
+ answers that are of interest.
 
 For more information, see the :ref:`Reference`.
 
-======================================
+=====================
 Submissions Report
-======================================
+=====================
 
 A report with a row for each problem-answer combination submitted by your
 students is available for review or download. The report columns show each
