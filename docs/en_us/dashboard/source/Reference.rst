@@ -41,8 +41,8 @@ All Computations
 
 .. spacer
 
-* Metrics for enrollment and engagement do not rely on account activation. A
-  user who registers an account and enrolls in a course, but does not activate
+* Account activation is not considered by edX Insights computations. A learner
+  who registers a user account and enrolls in a course, but does not activate
   the user account, is included in all computations as of the date and time of
   enrollment.
 

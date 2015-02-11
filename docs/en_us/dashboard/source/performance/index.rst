@@ -4,9 +4,10 @@
 Student Performance
 #############################
 
-To assess how students are doing in your course, from the edX Insights
-menu select **Performance**. The data reported by edX Insights gives you
-access to the answers that students submit for assigned questions.
+To assess how students are doing in your course, you make a selection from the
+**Performance** menu. EdX Insights provides aggregated performance data for
+assignments and problems, and gives you access to the answers that students
+submit for assigned questions.
 
 
 .. toctree::

@@ -1,19 +1,12 @@
-.. _Performance_Answers:
+.. _Performance_Graded:
 
 #############################
 Graded Content Submissions
 #############################
 
-How are students answering questions? Graded content submissions show you the
-responses that students submit for graded problems and help you evaluate what
-they find difficult.
-
-Student submissions are updated every day. The computations include responses
-to problems through the end of the previous day (23:59 UTC).
-
-*************************************
-Gaining Insight into Course Problems
-*************************************
+How are students answering questions? In edX Insights, graded content
+submissions show you the responses that students submit for graded problems
+and help you evaluate what they find difficult.
 
 Student submission data is available in edX Insights for problem components of
 these types:
@@ -29,6 +22,97 @@ these types:
 * Text input
 
 * Math expression input
+
+Student submissions are updated every day. The computations include responses
+received through the end of the previous day (23:59 UTC).
+
+*******************************************************
+Selecting the Assignment Type, Assignment, and Problem
+*******************************************************
+
+To access the answers that students submitted for a specific problem
+component, you must first make these selections.
+
+Step 1. Select a graded course assignment type.
+Step 2. Select an assignment. 
+Step 3. Select the problem.
+Step 4 (if needed). Select the problem part.
+
+As you make these selections, edX Insights displays charts and reports
+aggregated data at each of these hierarchical levels to give you information
+about student performance in your course.
+
+==================================
+Step 1. Select an Assignment Type 
+==================================
+
+After you select **Performance** and **Graded Content**, edX Insights displays
+the assignment types that make up the grading configuration of the course. You
+use the drop-down menu or click in this chart to select the assignment type
+you want to investigate.
+
+.. image:: ..images/assignment_type.png
+ :alt: Single bar, thermometer-style chart that shows the percentage that each
+     type of assignment contributes to the course grade
+
+.. replacement needed
+
+For information about defining course assignment types, see `Establishing a
+Grading Policy`_.
+
+==============================
+Step 2. Select an Assignment 
+==============================
+
+After you select one of the course assignment types, edX Insights displays a
+stacked bar chart that summarizes performance on each assignment of that type.
+You use the drop-down menu or click in the chart to select a specific
+assignment to examine further.
+
+.. image:: ..images/assignment.png
+ :alt: This chart has one bar for each assignment of this type, with
+     different colors for the number of correct and incorrect submissions
+
+.. replacement needed
+
+The report on this page provides the number of problems in each assignment and
+the total, correct, and incorrect submissions received for them.
+
+For information about identifying the graded subsections in a course, see `Set
+the Assignment Type and Due Date for a Subsection`_.
+
+=========================
+Step 3. Select a Problem
+=========================
+
+After you select a specific assignment, edX Insights displays a stacked bar
+chart that summarizes performance on each question in that problem.
+You use the drop-down menu or click in the chart to select a specific problem
+to examine further.
+
+.. image:: ..images/problems.png
+ :alt: This chart has one bar for each problem in this assignment, with
+     different colors for the number of correct and incorrect submissions
+
+.. replacement needed
+
+A downloadable report also provides the number of questions in each problem
+and the total, correct, and incorrect submissions received for them.
+
+For information about adding a unit to a subsection, see `Create a Unit`_.
+
+==============================
+Step 4. Select a Problem Part
+==============================
+
+
+For units that include more than one problem component there is also a Step 4, to select the 
+
+
+
+*************************************
+Gaining Insight into Course Problems
+*************************************
 
 EdX Insights delivers submission data in a bar chart and a report that you can
 view or download. For problem components that include more than one question
@@ -185,3 +269,9 @@ problem type to a more appropriate one.
 .. _Randomization: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#randomization
 
 .. _View Your Live Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/testing_courseware.html?highlight=view%20live#view-your-live-course
+
+.. _Establishing a Grading Policy: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/building_course/establish_grading_policy.html
+
+.. _Set the Assignment Type and Due Date for a Subsection: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/course_subsections.html#set-the-assignment-type-and-due-date-for-a-subsection
+
+.. _Create a Unit: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/developing_course/course_units.html#create-a-unit

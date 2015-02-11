@@ -2,6 +2,10 @@
 Change Log
 ############
 
+****
+2015
+****
+
 .. list-table::
    :widths: 10 70
    :header-rows: 1
@@ -9,7 +13,19 @@ Change Log
    * - Date
      - Change
    * - nn Feb 2015
-     - Added :ref:`Performance_Answers`.
+     - Added :ref:`Performance_Graded`.
+      
+
+****
+2014
+****
+
+.. list-table::
+   :widths: 10 70
+   :header-rows: 1
+
+   * - Date
+     - Change
    * - 9 Dec 2014
      - Updated :ref:`Enrollment_Activity` to include enrollment tracks.
    * -
