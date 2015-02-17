@@ -24,7 +24,7 @@ Step 1: Select a graded course assignment type.
 
 Step 2: Select an assignment. 
 
-Step 3: Select the problem. (If necessary, you also select the problem part.)
+Step 3: Select a problem. (If necessary, you also select the problem part.)
 
 EdX Insights provides aggregated data for each selection that you make. 
 
@@ -87,8 +87,8 @@ and the number of correct and incorrect submissions received for them.
 
 For information about adding a unit to a subsection, see `Create a Unit`_.
 
-For problem components that include more than one problem component, or part,
-you use the drop-down menu or click in the chart to select a part.
+For problem components that include more than one part, you use the drop-down
+menu or click in the chart to select a part.
 
 .. is there a chart? is there a report?
 
@@ -109,11 +109,11 @@ Submissions Chart
 The bars on this chart represent the number of enrolled students who submitted
 a particular answer to a question in a problem component. The x-axis includes
 the most frequently submitted answers, up to a maximum of 12. Due to space
-limitations, the question text that is used to label the x-axis might be
+limitations, the answer text that is used to label the x-axis might be
 truncated. Moving your cursor over each bar shows a longer version of the
 answer.
 
-To review the problem component in the LMS as a student does, click **View
+To review the problem component in the LMS as a student sees it, click **View
 Live** and then at the top of the page click **Staff View**. The LMS displays
 the corresponding page in Student View. For more information, see `View Your
 Live Course`_.
@@ -167,7 +167,7 @@ submitted by a student. For example, consider a dropdown problem that has
 five possible answers. The report or file contains up to five rows, one for
 each answer selected by at least one student.
 
-For problems that enable the randomization feature in Studio, there is one row
+For problems that use the randomization feature in Studio, there is one row
 for each problem-variant-answer combination selected by at least one student.
 For more information about problem randomization, see `Randomization`_.
 
@@ -234,7 +234,7 @@ question can begin with this manageably-sized set.
 
 For example, you create a text input problem with a single correct answer,
 "Warfarin". When you review its submissions chart, you notice how many
-similar, but incorrect, variations your students provide, including "warfarin
+similar, but incorrect, variations your students submit, including "warfarin
 sodium" and "Warfarin or Coumadin". 
 
 The proximity of these variations in the chart might reassure you that more

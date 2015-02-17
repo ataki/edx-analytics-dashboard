@@ -41,10 +41,10 @@ All Computations
 
 .. spacer
 
-* Account activation is not considered by edX Insights computations. A learner
-  who registers a user account and enrolls in a course, but does not activate
-  the user account, is included in all computations as of the date and time of
-  enrollment.
+* Account activation is not considered by the edX Insights computations. EdX
+  Insights includes a learner who registers a user account and enrolls in a
+  course, but does not activate the user account, in all computations as of
+  the date and time of enrollment.
 
 .. _Enrollment Computations:
 
@@ -396,13 +396,13 @@ Performance Computations
 
 * Computations for graded content include only problems for which students can
   click **Check** to submit their responses. If students can only save their
-  responses without submitting them (that is, the **Maximum Attempts** for the
-  problem is set to 0), data is not available for student submission
+  responses without submitting them (that is, if the **Maximum Attempts** for
+  the problem is set to 0), data is not available for student submission
   computations.
 
 * Only problem activity that occurred after 23 Oct 2013 is included. In
-  addition, at least one student must have submitted an answer after 6 Mar
-  2014.
+  addition, for data to be available for a problem at least one student must
+  have submitted an answer for that problem after 6 Mar 2014.
 
 **Graded Content Submissions .csv file**
 
@@ -444,8 +444,8 @@ Submissions chart and report. The .csv file contains the following columns.
      - The internal identifier for the problem component.
    * - ``part_id``
      - For a problem component that contains multiple questions, the internal
-       identifier for each one. For a problem component that contains a single
-       question, the internal identifier of that problem.
+       identifier for each question. For a problem component that contains a
+       single question, the internal identifier of that problem.
    * - ``problem_display_name``
      - The display name defined for the problem.
    * - ``question_text``
@@ -454,18 +454,18 @@ Submissions chart and report. The .csv file contains the following columns.
        text is surrounded by two pairs of angle brackets (>>Question<<). Blank
        for questions that do not have an accessibility label.
 
-       For problems that use randomization, if a particular answer has not 
-       been selected since 6 Mar 2014, the ``question_text`` is blank for 
-       that answer.
+       For problems that use the randomization setting in Studio, if a
+       particular answer has not been selected since 6 Mar 2014, the
+       ``question_text`` is blank for that answer.
 
    * - ``value_id``
      - The internal identifier for the answer choice provided for checkboxes
        and multiple choice problems. Blank for dropdown, numerical input, text
        input, and math expression input problems.
    * - ``variant``
-     - For problems that use the randomization setting in Studio, contains
-       the unique identifier for a variant of the problem. Blank for problems
-       that have this setting defined as **Never** (the default).
+     - For problems that use the randomization setting in Studio, the unique
+       identifier for a variant of the problem. Blank for problems that have
+       this setting defined as **Never** (the default).
 
 
 After you download the .csv file, be aware that different spreadsheet
@@ -474,8 +474,9 @@ applications can display the same data in different ways.
 * Not all spreadsheet applications interpret and render UTF-8 encoded
   characters correctly.
 
-* Some spreadsheet applications alter data for display purposes, such as 
-  zero-filling numbers expressed as decimals.
+* Some spreadsheet applications alter data for display purposes, such as
+  inserting zeroes into numbers expressed as decimals. For example, the
+  student answer ".5" can be appear in a spreadsheet as "0.5".
 
 If you notice characters that do not display as expected, or multiple lines
 that have the same ``answer_value`` but different counts, try opening the file
@@ -510,10 +511,10 @@ In the following situations, data may not be available in edX Insights.
   available.
 
 * Charts are not available for problems that use the randomization setting in
-  Studio. Because these problems can result in numerous possible submission
+  Studio. Because such problems can result in numerous possible submission
   variants, both correct and incorrect, edX Insights does not attempt to graph
   them. The Submissions report and downloadable .csv file are available for
-  these problems, and include one row for each problem-variant-answer
+  such problems, and include one row for each problem-variant-answer
   combination selected by your students.
 
 
