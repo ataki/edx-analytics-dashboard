@@ -24,7 +24,7 @@ Step 1: Select a graded course assignment type.
 
 Step 2: Select an assignment. 
 
-Step 3: Select a problem. (If necessary, you also select the problem part.)
+Step 3: Select a problem. (If necessary, you also select a problem part.)
 
 EdX Insights provides aggregated data for each selection that you make. 
 
@@ -39,7 +39,7 @@ investigate.
 
 .. image:: ../images/assignment_type.png
  :alt: Single bar, thermometer-style chart that shows the percentage that each
-     type of assignment contributes to the course grade
+     assignment type contributes to the course grade
 
 .. replacement needed
 
@@ -51,9 +51,9 @@ Step 2: Select an Assignment
 ==============================
 
 After you select one of the course assignment types, edX Insights displays a
-stacked bar chart that summarizes performance on each assignment of that type.
-You use the drop-down menu or click in the chart to select a specific
-assignment to examine further.
+stacked bar chart that summarizes student performance on each assignment of
+that type. You use the drop-down menu or click in the chart to select a
+specific assignment to examine further.
 
 .. image:: ../images/assignment.png
  :alt: This chart has one bar for each assignment of the selected type, with
@@ -72,9 +72,9 @@ Step 3: Select a Problem
 =========================
 
 After you select a specific assignment, edX Insights displays a stacked bar
-chart that summarizes performance on each question in that problem. You use
-the drop-down menu or click in the chart to select a specific problem to
-examine further.
+chart that summarizes student performance on each question in that problem.
+You use the drop-down menu or click in the chart to select a specific problem
+to examine further.
 
 .. image:: ../images/problems.png
  :alt: This chart has one bar for each problem in the selected assignment,
@@ -86,6 +86,8 @@ The report on this page provides the number of questions in each problem
 and the number of correct and incorrect submissions received for them.
 
 For information about adding a unit to a subsection, see `Create a Unit`_.
+
+.. Because you can create a problem component that includes several problems, you might also need to select a problem part. 
 
 For problem components that include more than one part, you use the drop-down
 menu or click in the chart to select a part.
@@ -174,11 +176,11 @@ For more information about problem randomization, see `Randomization`_.
 See the :ref:`Reference` for a detailed description of each column.
 
 *******************************************************
-Analytics in Action: Interpreting Student Submissions
+Analytics in Action: Interpreting Graded Submissions
 *******************************************************
 
-A review of the distribution of student submissions for a problem can lead to
-discoveries about your students and about your course.
+A review of the distribution of student submissions for a graded problem can
+lead to discoveries about your students and about your course.
 
 * You can assess how difficult the problem is for students to answer correctly. 
 
@@ -221,9 +223,9 @@ The results of your investigation can guide changes to future course runs.
 
 .. others?
 
-===============================================
+=================================
 Investigating Similar Responses
-===============================================
+=================================
 
 For open-ended problem types that provide only the question (numerical, text,
 and math expression input), submission data can help you identify similar
@@ -233,11 +235,12 @@ submitted responses. Your initial investigation into how students answer a
 question can begin with this manageably-sized set.
 
 For example, you create a text input problem with a single correct answer,
-"Warfarin". When you review its submissions chart, you notice how many
-similar, but incorrect, variations your students submit, including "warfarin
-sodium" and "Warfarin or Coumadin". 
+"Warfarin". When you review its submissions chart, you notice that your
+students submitted several similar, but incorrect, variations,including
+"warfarin sodium" and "Warfarin or Coumadin". The report reveals several more
+variations, including "WARFARIN", "Coumadin or Warfarin", and so on.
 
-The proximity of these variations in the chart might reassure you that more
+Reviewing the submitted answers for this question might reassure you that more
 students understand the relevant course material than is indicated by the
 number who actually provided the correct answer. If so, it might also prompt
 you to update the problem so that the additional variations of the answer are
@@ -245,6 +248,21 @@ evaluated as correct. Alternatively, you might decide to revise the question
 so that your parameters for the correct response are clearer, or change the
 problem type to a more appropriate one.
 
+=====================================================
+Reviewing Answers to Test and Complete Course Setup
+=====================================================
+
+Before the release date of each section, you encourage your beta testers to
+answer every question, and to submit both correct and incorrect answers.
+You then use edX Insights to review the answers that your testers submit for
+each problem. You verify that each problem is set up as you intend, and
+correct any oversights before students can encounter them.
+
+You also use edX Insights to validate the grading configuration, and to
+proofread the display names, accessibility labels, and text that identify
+graded assignment types, assignments, problems, questions, and answers.
+
+.. show examples like every subsection with a quiz is named Quiz, no accessibility label for a problem -- also useful to show LMS?
 
 
 .. _Randomization: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#randomization
