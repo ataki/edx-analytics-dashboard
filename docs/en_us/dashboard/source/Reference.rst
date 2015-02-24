@@ -449,10 +449,10 @@ Submissions chart and report. The .csv file contains the following columns.
    * - ``problem_display_name``
      - The display name defined for the problem.
    * - ``question_text``
-     - The accessibility label that appears above the answer choices or
+     - The accessible label that appears above the answer choices or
        the value entry field for the problem. In the Studio Simple Editor, this
        text is surrounded by two pairs of angle brackets (>>Question<<). Blank
-       for questions that do not have an accessibility label.
+       for questions that do not have an accessible label.
 
        For problems that use the randomization setting in Studio, if a
        particular answer has not been selected since 6 Mar 2014, the

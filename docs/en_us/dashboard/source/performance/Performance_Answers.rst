@@ -259,10 +259,10 @@ each problem. You verify that each problem is set up as you intend, and
 correct any oversights before students can encounter them.
 
 You also use edX Insights to validate the grading configuration, and to
-proofread the display names, accessibility labels, and text that identify
+proofread the display names, accessible labels, and text that identify
 graded assignment types, assignments, problems, questions, and answers.
 
-.. show examples like every subsection with a quiz is named Quiz, no accessibility label for a problem -- also useful to show LMS?
+.. show examples like every subsection with a quiz is named Quiz, no accessible label for a problem -- also useful to show LMS?
 
 
 .. _Randomization: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/creating_content/create_problem.html#randomization
